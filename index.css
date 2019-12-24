@@ -9,33 +9,93 @@ body {
     margin:0;
     width: 100%;
     height: auto;
+    font-family: 'Vidaloka', serif;
+    font-size: 16px;
   }
+
+h2{
+    color: rgb(241, 245, 236);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 31px;
+}
+
+h1, h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+}
+
+button{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+  img{
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 220px;
+}
 
 /* Header Content */
 
 header{
+    height: 80px;
     width: 100%;
     display: flex;
     border: rgb(100, 98, 98);
     border-bottom-style: solid;
     border-width: 3px;
+    background-color: #587B7F;
 }
 
 .headerTitle{
     flex-grow: 2;
     width: 220px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .headerCounter{
     width: 220px;
-    padding: 40px;
+    padding: 20px;
+}
+
+/* Start Box Content */
+
+.startBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Quiz Box Content */
 
 .quizBox{
-    height: 420px;
+    height: 460px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,16 +148,9 @@ header{
     margin-top: 50px;
 }
 
-.question{
-    margin-bottom: 20px;
-}
-
-.questionNumber{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
+.questionText{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
 }
 
 /* Footer Content */
@@ -106,4 +159,14 @@ footer{
     border: rgb(100, 98, 98);
     border-top-style: solid;
     border-width: 3px;
+    background-color: #394032;
+    height: 100%;
+}
+
+.questionCounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: rgb(245, 245, 245);
 }
