@@ -179,7 +179,7 @@ footer{
 
 /* Mobile Adjustments */
 
-@media only screen 
+/* @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -234,7 +234,7 @@ footer{
         font-size: 24px;
     }
 
-}
+} */
 
 /* Working */
 
@@ -242,6 +242,11 @@ footer{
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
+    main{
+        height: 700px;
+        background-color: red;
+    }
+    
     .startBox {
         height: 650px;
         display: flex;
