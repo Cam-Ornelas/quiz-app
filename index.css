@@ -249,4 +249,9 @@ footer{
         margin-top: 0px;
     }
 
+    .final{
+        width: 100%;
+        height: 500px;
+    }
+
 }
