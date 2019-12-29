@@ -131,7 +131,7 @@ header{
 .quizBox input, .quiz-box select {
     display: block;
     width: 15.5rem;
-    margin-top: .35rem;
+    margin-top: 5px;
 }
 
 .quizBox button {
