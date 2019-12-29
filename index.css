@@ -238,13 +238,10 @@ footer{
 
 /* Working */
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width:500px) {
     body{
         width: 100%;
-        height: auto;
+        height: 1450px;
         background-color: red;
     }
     
@@ -286,7 +283,7 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     .response {
-        height: 500px;
+        height: 550px;
         display: flex;
         align-items: center;
         justify-content: center;
