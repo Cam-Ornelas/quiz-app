@@ -35,6 +35,7 @@ h1, h3{
 }
 
 button{
+    position: relative;
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
@@ -73,12 +74,14 @@ header{
 }
 
 .headerTitle{
+    position: relative;
     flex-grow: 2;
     width: 220px;
     padding: 20px;
 }
 
 .headerCounter{
+    position: relative;
     width: 220px;
     padding: 20px;
 }
@@ -177,65 +180,6 @@ footer{
     color: rgb(245, 245, 245);
 }
 
-/* Mobile Adjustments */
-
-/* @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-    main{
-        height: 100%;
-        background-color: red;
-    }
-
-    .startBox {
-        height: 650px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-    }
-
-    .quizBox {
-        width: 100%;
-        height: 700px;
-    }
-
-    .questionBox {
-        height: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-    }
-
-    .questionText {
-        font-size: 38px;
-    }
-
-    button {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 48px;
-    }
-
-    .questionCounter {
-        font-size: 30px;
-    }
-
-    .response {
-        height: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-    }
-
-} */
-
 /* Working */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -255,7 +199,7 @@ footer{
     }
 
     .questionBox {
-        height: 500px;
+        height: 600px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -267,11 +211,12 @@ footer{
     }
 
     button {
+        position: relative;
         font-size: 20px;
     }
 
     h2 {
-        font-size: 48px;
+        font-size: 28px;
     }
 
     .questionCounter {
@@ -284,6 +229,11 @@ footer{
         align-items: center;
         justify-content: center;
         font-size: 24px;
+    }
+
+    header{
+        width: 100%;
+        display: flex;
     }
 
 }
