@@ -190,7 +190,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .quizBox {
@@ -245,8 +245,8 @@ footer{
         height: auto;
     }
 
-    .quizBox fieldset {
+    /* .quizBox fieldset {
         margin-top: 5px;
-    }
+    } */
 
 }
