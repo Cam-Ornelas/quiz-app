@@ -245,4 +245,8 @@ footer{
         height: auto;
     }
 
+    .quizBox fieldset {
+        margin-top: 20px;
+    }
+
 }
