@@ -214,29 +214,8 @@ const myQuestions = [
   //calculate final score and populate feedback
   function finalScore() {
     $('.final').show();
-  
-    const great = [
-      'Great job!'
-    ];
-  
-    const good = [
-      'Good, not great.'
-    ];
-  
-    const bad = [
-      'Very Bad!'
-    ];
-  
-    if (score >= 8) {
-      array = great;
-    } else if (score < 8 && score >= 5) {
-      array = good;
-    } else {
-      array = bad;
-    }
     return $('.final').html(
-      `<h3>${array[0]}</h3>
-          <h3>Your score is ${score} / 10</h3>
+      `<h3>Your score is ${score} / 10</h3>
           <button type="submit" class="restartButton button">Restart</button>`
     );
   }
