@@ -250,7 +250,7 @@ footer{
 
     .quizBox {
         width: 100%;
-        height: 1450px;
+        height: auto;
         background-color: red;
     }
 
