@@ -186,7 +186,7 @@ footer{
     
     .startBox {
         width: 100%;
-        height: auto;
+        height: 500px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -245,8 +245,8 @@ footer{
         height: auto;
     }
 
-    /* .quizBox fieldset {
-        margin-top: 5px;
-    } */
+    .quizBox fieldset {
+        margin-top: 0px;
+    }
 
 }
