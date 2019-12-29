@@ -184,6 +184,59 @@ footer{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .startBox {
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .quizBox {
+        width: 100%;
+        height: 700px;
+    }
+
+    .questionBox {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .questionText {
+        font-size: 38px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .questionCounter {
+        font-size: 30px;
+    }
+
+}
+
+/* Working */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .startBox {
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+
     .quizBox {
         width: 100%;
         height: 700px;
