@@ -350,4 +350,8 @@ footer{
     h4{
         font-size: 38px;
     }
+
+    .sizeMe{
+        font-size: 20px;
+    }
 }
