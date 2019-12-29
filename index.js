@@ -182,7 +182,7 @@ const myQuestions = [
   //increase user score by 1
   function correctAnswer() {
     $('.response').html(
-      `<h3>Your answer is correct!</h3>
+      `<h2>Your answer is correct!</h2>
       <img src="img/correct-img.jpg" alt="smart dog" class="images" width="200px">
         <p class="sizeMe">Correct!</p>
         <button type="button" class="nextButton button">Next</button>`
@@ -193,7 +193,7 @@ const myQuestions = [
   //populate feedback (incorrect)
   function wrongAnswer() {
     $('.response').html(
-      `<h3>Sorry, that answer is wrong.</h3>
+      `<h2>Sorry, that answer is wrong.</h2>
       <img src="img/wrong-img.jpg" alt="dissapointed dog" class="images" width="200px">
       <p class="sizeMe">It's actually:</p>
       <p class="sizeMe">${myQuestions[questionNumber].correctAnswer}</p>
