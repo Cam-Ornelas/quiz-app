@@ -25,6 +25,12 @@ h1, h3{
     font-family: 'Bebas Neue', cursive;
 }
 
+h4{
+    font-size: 28px;
+    margin-top: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
 .box{
     display: flex;
     flex-direction: column;
@@ -257,6 +263,10 @@ footer{
     h3{
         font-size: 34px;
         margin-top: 200px;
+    }
+
+    h4{
+        font-size: 34px;
     }
 
 }
