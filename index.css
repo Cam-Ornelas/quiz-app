@@ -153,6 +153,12 @@ header{
     font-size: 24px;
 }
 
+.questionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer Content */
 
 footer{
@@ -169,4 +175,42 @@ footer{
     align-items: center;
     height: 80px;
     color: rgb(245, 245, 245);
+}
+
+/* Mobile Adjustments */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .quizBox {
+        width: 100%;
+        height: 700px;
+    }
+
+    .questionBox {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .questionText {
+        font-size: 38px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .questionCounter {
+        font-size: 30px;
+    }
+
 }
