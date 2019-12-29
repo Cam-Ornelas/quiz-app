@@ -196,7 +196,6 @@ footer{
     .quizBox {
         width: 100%;
         height: auto;
-        background-color: red;
     }
 
     .questionBox {
@@ -221,7 +220,7 @@ footer{
     }
 
     .questionCounter {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .response {
@@ -235,6 +234,10 @@ footer{
     header{
         width: 100%;
         display: flex;
+    }
+
+    .headerTitle{
+        width: 420px;
     }
 
 }
