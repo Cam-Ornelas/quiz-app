@@ -131,7 +131,7 @@ header{
 .quizBox input, .quiz-box select {
     display: block;
     width: 15.5rem;
-    margin-top: 5px;
+    margin-top: .35rem;
 }
 
 .quizBox button {
@@ -224,7 +224,9 @@ footer{
     }
 
     .response {
-        height: 550px;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
