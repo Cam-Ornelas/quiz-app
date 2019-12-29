@@ -240,4 +240,9 @@ footer{
         width: 420px;
     }
 
+    img{
+        width: 180px;
+        height: auto;
+    }
+
 }
